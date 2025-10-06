@@ -1,26 +1,50 @@
+@font-face {
+    font-family: "Norse Bold";
+    src: url("fonts/Norse-Bold.otf") format("opentype");
+}
+
 #odinLogo {
     background-color: rgba(0,0,0,0.6);
     color: white;
     position: absolute;
-    top: 40%;
+    top: 20%;
     height: 20%;
     display: flex;
+    width: 100%;
+    font-family: "Norse Bold";
+    font-size: 300%;
+    justify-content: center;
+    align-items: center;
 }
 
 img#odin {
     height: 90%;
     opacity: 1;
+    
 }
 
 body {
     display: flex;
+    top: 0;
+    left: 0;
 }
 
 .artwork {
-    width: 50%;
+    width: 36%;
+    left: 0;
+    padding: 0;
+    top: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
 }
 
 #leafs {
     width: 100%;
 }
 
+#credit {
+    position: absolute;
+    bottom: 0;
+    color: white;
+}
