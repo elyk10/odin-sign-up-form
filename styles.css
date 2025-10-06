@@ -1,0 +1,26 @@
+#odinLogo {
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    position: absolute;
+    top: 40%;
+    height: 20%;
+    display: flex;
+}
+
+img#odin {
+    height: 90%;
+    opacity: 1;
+}
+
+body {
+    display: flex;
+}
+
+.artwork {
+    width: 50%;
+}
+
+#leafs {
+    width: 100%;
+}
+
