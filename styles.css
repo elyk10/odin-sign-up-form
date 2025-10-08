@@ -48,3 +48,32 @@ body {
     bottom: 0;
     color: white;
 }
+
+.form {
+    position: absolute;
+    left: 36%;
+    font-family: Roboto;
+    background-color: rgb(245, 245, 245);
+    top: 0;
+    
+}
+
+fieldset {
+    background-color: white;
+    border: none;
+    width: 100%;
+}
+
+.form h1 {
+    margin:5%;
+}
+
+#createAccount {
+    padding: 10px 20px;
+    background-color: #596D48;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    box-shadow: 0px 5px 10px grey;
+}
