@@ -55,16 +55,52 @@ body {
     font-family: Roboto;
     background-color: rgb(245, 245, 245);
     top: 0;
-    
+    height: 100%;
+}
+
+.labelText {
+    display: flex;
+    flex-direction: column;
+}
+
+.formDiv {
+    display: flex;
+}
+
+input {
+    width: 200px;
+    margin: 0px 50px 0px 0px;
+    height: 25px;
+    outline: none;
+    border:2px solid rgb(230, 230, 230);
+    border-radius: 5px;
+}
+
+input:focus {
+    border-color: blue;
+    outline: none;
+}
+
+input[type="password"]:invalid {
+    border-color: red;
+}
+
+label {
+    margin-top: 10px;
 }
 
 fieldset {
     background-color: white;
     border: none;
     width: 100%;
+    box-shadow: 0px 5px 10px grey;
+    display: flex;
+    flex-direction: column;
+
+    padding: 0px 50px 50px;
 }
 
-.form h1 {
+.form h1, .form p, .form button {
     margin:5%;
 }
 
@@ -76,4 +112,5 @@ fieldset {
     border-radius: 5px;
     font-family: 'Roboto';
     box-shadow: 0px 5px 10px grey;
+    
 }
